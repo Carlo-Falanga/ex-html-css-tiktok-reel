@@ -30,3 +30,20 @@
 }
 
 /* Sidebar */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  text-align: center;
+  gap: 2rem;
+}
+
+.logo_sidebar {
+  width: 60px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.side_icons {
+  font-size: 2rem;
+}
