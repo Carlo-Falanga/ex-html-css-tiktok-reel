@@ -1,0 +1,32 @@
+/* Header */
+.reel-header {
+  display: flex;
+  padding: 0 2rem;
+  min-height: 50px;
+  flex-wrap: wrap;
+}
+
+.btn_header {
+  appearance: none;
+  border: none;
+  background: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.btn_center {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.btn_icon {
+  font-size: 1.3rem;
+}
+
+.btn_border {
+  border-bottom: 2px solid;
+  padding-top: 0.3rem;
+  padding-bottom: 0.2rem;
+}
+
+/* Sidebar */
