@@ -110,6 +110,7 @@ footer i {
   border-radius: 20%;
   border: solid 1px white;
   border-width: 0 10px;
+  box-shadow: -4px 0 0 #7ffcfc, 4px 0 0 #eb33f9;
 }
 
 .dms_number {
