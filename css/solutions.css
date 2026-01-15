@@ -1,3 +1,7 @@
+/* Generic */
+body {
+  max-width: 512px;
+}
 /* Header */
 .reel-header {
   display: flex;
@@ -106,4 +110,18 @@ footer i {
   border-radius: 20%;
   border: solid 1px white;
   border-width: 0 10px;
+}
+
+.dms_number {
+  position: absolute;
+  left: 70%;
+  top: 15px;
+  border: 1px solid rgb(255, 48, 48);
+  background-color: rgb(255, 48, 48);
+  color: #fff;
+  height: 20px;
+  width: 30px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border-radius: 10px;
 }
