@@ -2,17 +2,17 @@
 .reel-header {
   display: flex;
   padding: 0 2rem;
-  min-height: 50px;
   flex-wrap: wrap;
+  min-height: 100px;
 }
 
 .btn_header {
   appearance: none;
   border: none;
   background: none;
-  color: #fff;
+  color: #ffffffb0;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 .btn_center {
   display: flex;
@@ -20,13 +20,15 @@
   flex-wrap: wrap;
 }
 .btn_icon {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
+  color: #fff;
 }
 
 .btn_border {
   border-bottom: 2px solid;
   padding-top: 0.3rem;
   padding-bottom: 0.2rem;
+  color: #fff;
 }
 
 /* Sidebar */
@@ -46,4 +48,42 @@
 
 .side_icons {
   font-size: 2rem;
+}
+
+/* Footer */
+
+footer {
+  background-color: black;
+  min-height: 100px;
+}
+
+.footer_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.footer_container div {
+  width: 100%;
+  padding-top: 1.2rem;
+  color: #ffffffb0;
+}
+.home_color {
+  color: #fff;
+}
+footer i {
+  font-size: 1.4rem;
+}
+
+.footer_icon_description {
+  font-size: 0.8rem;
+}
+
+.footer_plus {
+  background-color: #fff;
+  color: black;
+  border-radius: 20%;
+  border: solid 1px white;
+  border-width: 0 10px;
 }
